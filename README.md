@@ -30,3 +30,5 @@ Sub GetMyEmailAddress()
     MsgBox "メールアドレス: " & myAddress
 End Sub
 
+メールアドレスが取得できたら…
+jsonファイルからメールアドレスをキーとして名前とユーザネームを配置する
