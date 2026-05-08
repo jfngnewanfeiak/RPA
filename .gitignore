@@ -1,0 +1,9 @@
+# 生成ファイル
+*.emf
+*.bmp
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.env
