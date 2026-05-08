@@ -6,6 +6,9 @@ pywinauto
 
 https://note.com/dapper_pony2721/n/ndeebe3ed0d36
 
+pywinautoに関するtips
+https://note.com/dapper_pony2721/n/n55fdc4c63e00#4d53287a-9b00-4260-b1c9-8ac6ef3910ba
+
 やること
 clipstampのインストール
 ファイル更新のためのサービス設定とその方法をまとめる
