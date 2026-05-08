@@ -9,3 +9,24 @@ https://note.com/dapper_pony2721/n/ndeebe3ed0d36
 やること
 clipstampのインストール
 ファイル更新のためのサービス設定とその方法をまとめる
+
+
+VBAよりメールアドレスを取得
+Sub GetMyEmailAddress()
+    Dim olApp As Object
+    Dim olNS As Object
+    Dim myAddress As String
+
+    ' Outlookアプリケーションを取得
+    Set olApp = CreateObject("Outlook.Application")
+    ' 名前空間を取得
+    Set olNS = olApp.GetNamespace("MAPI")
+
+    ' 現在のユーザーのメールアドレスを取得
+    myAddress = olNS.CurrentUser.Address
+
+    ' 結果を表示（イミディエイトウィンドウ）
+    Debug.Print "メールアドレス: " & myAddress
+    MsgBox "メールアドレス: " & myAddress
+End Sub
+
