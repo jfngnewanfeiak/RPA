@@ -1,4 +1,9 @@
 # RPA
+使用するpythyon ver 3.14.4
+インストーラーダウンロードページ
+https://www.python.org/downloads/release/pymanager-261/
+
+https://qiita.com/harupython/items/5aabf7fd592feca1a267
 
 使用するライブラリ
 
