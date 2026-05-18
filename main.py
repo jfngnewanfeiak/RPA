@@ -8,6 +8,9 @@ print("Starting the application...")
 subprocess.Popen("C:\Program Files (x86)\Clipstamp\Clipstamp.exe")
 time.sleep(1)
 app = Application(backend="uia").connect(title="クリップスタンプ")
+# 開いているウィンドウを全部表示
+for w in app.windows():
+    print(repr(w.window_text()), w.is_visible(), w.is_enabled())
 dlg = app.window(title="クリップスタンプ")
 dlg.wait('ready', timeout=10)
 
